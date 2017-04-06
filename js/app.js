@@ -52,9 +52,9 @@ document.addEventListener("DOMContentLoaded", function(){
 		education.innerHTML = "education";
 		coderslab_info.innerHTML = "04.2017: Front-end Bootcamp";
 		politechnika.innerHTML = "wroclaw university of technology and science";
-		inz_biomed.innerHTML = "04.2015 : Biomedical Engineering (Engineer's degree";
-		biotech_farma.innerHTML = "07.2012 : Pharmaceutic Biotechnology (Master's degree)";
-		biotech.innerHTML = "01.2011 : Biotechnology (Engineer's degree)";
+		inz_biomed.innerHTML = "04.2015: Biomedical Engineering (Engineer's degree";
+		biotech_farma.innerHTML = "07.2012: Pharmaceutic Biotechnology (Master's degree)";
+		biotech.innerHTML = "01.2011: Biotechnology (Engineer's degree)";
 		expierence.innerHTML = "expierence";
 		exp_1_date.innerHTML = "01.12.2014 - present";
 		exp_1.innerHTML = "<strong>Assistant at Kinesiology Cathedral in Wroclaw Univeristy of Physical Education</strong><br>(MRI data analysis, teaching students)";
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function(){
 		exp_3.innerHTML = "<strong>Office administrator at Non-public Kindergarten No. 2 in Zgorzelec</strong><br>(office documentation maintenance)";
 		visit_me.innerHTML = "visit me";
 		profile.innerHTML = "profile";
-		profile_info.innerHTML = "Hi! I'm an ambitious code passionate who recently graduated Coders Lab front-end bootcamp and is determinated to start in IT industry working as a junior front-end developer.";
+		profile_info.innerHTML = "Hi!<br>I'm an ambitious code passionate who recently graduated Coders Lab front-end bootcamp and is determinated to start in IT industry working as a junior front-end developer.";
 		skills.innerHTML = "skills";
 		english.innerHTML = "English (B2 - acert)";
 		contact.innerHTML = "contact";

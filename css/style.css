@@ -1,5 +1,5 @@
 * {
-  border: 1px solid dotted;
+  /*border: 1px solid dotted;*/
   box-sizing: border-box;
   color: #3A3335;
   font-family: sans-serif;
@@ -27,7 +27,7 @@
   min-height: 1px;
   width: 8.33333%;
   padding: 10px;
-  border: 1px dotted black;
+  /*border: 1px dotted black;*/
 }
 
 .col-1 {
@@ -79,30 +79,6 @@
 }
 
 /* ---------------------------------------------- */
-@media only screen and (max-width: 550px) {
-  [class*='col-'] {
-    float: none;
-    width: 100%;
-  }
-
-  .third {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .third > .main_left {
-    order: 2;
-  }
-
-  .third > .main_right {
-    order: 1;
-  }
-
-  header .col-1 {
-    width: 20%;
-  }
-}
-/* ---------------------------------------------- */
 .third > * {
   display: flex;
   flex-direction: column;
@@ -125,15 +101,23 @@ a {
 /* ---------------------------------------------- */
 h1 {
   color: #022084;
+  font-size: 3rem;
+}
+
+h2 {
+  color: #022084;
+  font-size: 1.5em;
+}
+
+.first > * {
+  background-color: beige;
 }
 
 .second > .col-8 {
   background-color: #022084;
-  height: 222px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
+  justify-content: space-around;
 }
 .second > .col-8 * {
   color: #FFD3A5;
@@ -144,6 +128,11 @@ h1 {
   display: flex;
   justify-content: center;
   align-content: center;
+}
+
+.main_left {
+  justify-content: space-around;
+  background-color: beige;
 }
 
 .main_right {
@@ -187,4 +176,40 @@ header .col-12 > * {
   background-size: cover;
   border: 5px solid saddlebrown;
   border-radius: 10%;
+  transform: scale(1.1);
 }
+
+#clause {
+  background-color: beige;
+}
+
+/* ---------------------------------------------- */
+@media only screen and (max-width: 550px) {
+  [class*='col-'] {
+    float: none;
+    width: 100%;
+  }
+
+  .third {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .third > .main_left {
+    order: 2;
+    font-size: 0.9rem;
+  }
+  .third > .main_left > * {
+    text-align: center;
+  }
+
+  .third > .main_right {
+    order: 1;
+  }
+
+  header .col-1 {
+    width: 20%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
