@@ -197,10 +197,10 @@ header .col-12 > * {
 
   .third > .main_left {
     order: 2;
-    font-size: 0.9rem;
+    font-size: 0.5rem;
   }
   .third > .main_left > * {
-    text-align: center;
+    /*text-align: center;*/
   }
 
   .third > .main_right {
