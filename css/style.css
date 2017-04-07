@@ -197,7 +197,7 @@ header .col-12 > * {
 
   .third > .main_left {
     order: 2;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .third > .main_left > * {
     /*text-align: center;*/
