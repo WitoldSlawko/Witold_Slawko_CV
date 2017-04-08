@@ -4,6 +4,10 @@ $main_color_1: #022084;
 $main_color_2: #FFD3A5;
 $main_color_3: #3A3335;
 
+html {
+	font-size: 20px;
+}
+
 * {
 	/*border: 1px solid dotted;*/
 	box-sizing: border-box;
@@ -69,7 +73,7 @@ a {
 
 h1 {
   color: #022084;
-	font-size: 3rem;
+	font-size: 3em;
 }
 
 h2 {
@@ -148,7 +152,6 @@ header .col-12 {
   background-size: cover;
 	border: 5px solid saddlebrown;
 	border-radius: 10%;
-	transform: scale(1.1);
 }
 
 #clause {
@@ -168,10 +171,7 @@ header .col-12 {
 	}
 	.third>.main_left {
 		order: 2;
-		font-size: 0.9rem;
-		> * {
-			text-align: center;
-		}
+		font-size: 0.75rem;
 	}
 	.third>.main_right {
 		order: 1;
