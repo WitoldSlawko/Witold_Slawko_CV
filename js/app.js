@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function(){
 		english.innerHTML = 'j. angielski (B2 - acert)';
 		contact.innerHTML = "kontakt";
 		adress.innerHTML = 'Wrocław';
-		clause.innerHTML = 'Wyrażam zgodę na przetwarzanie moich danych osobowych w celach rekrutacji, zgodnie z ustawą o ochronie danych osobowych z dnia 29.08.1997 (Dz.U.133 Poz.883).';
+		clause.innerHTML = '<em>Wyrażam zgodę na przetwarzanie moich danych osobowych w celach rekrutacji, zgodnie z ustawą o ochronie danych osobowych z dnia 29.08.1997 (Dz.U.133 Poz.883).</em>';
 		
 	});
 	
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function(){
 		english.innerHTML = "English (B2 - acert)";
 		contact.innerHTML = "contact";
 		adress.innerHTML = "Wroclaw";
-		clause.innerHTML = "I hereby agree to the processing of my personal data for recruitment purposes, in accordance with the Personal Data Protection Act of 29.08.1997 (OJ133, No.883).";
+		clause.innerHTML = "<em>I hereby agree to the processing of my personal data for recruitment purposes, in accordance with the Personal Data Protection Act of 29.08.1997 (OJ133, No.883).</em>";
 
 	});
 	
