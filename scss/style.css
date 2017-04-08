@@ -1,32 +1,33 @@
 /* line 7, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 html {
-  font-size: 20px; }
+  font-size: 20px;
+  background-color: beige; }
 
-/* line 11, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 12, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 * {
   /*border: 1px solid dotted;*/
   box-sizing: border-box;
   color: #3A3335;
   font-family: sans-serif; }
 
-/* line 18, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 19, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .grid-container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto; }
 
-/* line 24, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 25, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .row:before,
 .row:afeter {
   content: " ";
   display: table;
   clear: both; }
 
-/* line 31, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 32, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .row {
   min-height: 1px; }
 
-/* line 35, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 36, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 [class*='col-'] {
   float: left;
   min-height: 1px;
@@ -34,147 +35,147 @@ html {
   padding: 10px;
   /*border: 1px dotted black;*/ }
 
-/* line 46, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 47, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .col-1 {
   width: 8.33333%; }
 
-/* line 46, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 47, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .col-2 {
   width: 16.66667%; }
 
-/* line 46, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 47, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .col-3 {
   width: 25%; }
 
-/* line 46, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 47, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .col-4 {
   width: 33.33333%; }
 
-/* line 46, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 47, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .col-5 {
   width: 41.66667%; }
 
-/* line 46, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 47, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .col-6 {
   width: 50%; }
 
-/* line 46, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 47, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .col-7 {
   width: 58.33333%; }
 
-/* line 46, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 47, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .col-8 {
   width: 66.66667%; }
 
-/* line 46, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 47, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .col-9 {
   width: 75%; }
 
-/* line 46, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 47, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .col-10 {
   width: 83.33333%; }
 
-/* line 46, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 47, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .col-11 {
   width: 91.66667%; }
 
-/* line 46, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 47, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .col-12 {
   width: 100%; }
 
 /* ---------------------------------------------- */
-/* line 53, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 54, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .third > * {
   display: flex;
   flex-direction: column; }
 
-/* line 58, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 59, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .big_font {
   text-transform: uppercase;
   font-weight: bold; }
 
-/* line 63, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 64, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .text_center {
   text-align: center; }
 
-/* line 67, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 68, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 a {
   text-decoration: none;
   font-weight: bold; }
 
 /* ---------------------------------------------- */
-/* line 74, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 75, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 h1 {
   color: #022084;
   font-size: 3em; }
 
-/* line 79, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 80, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 h2 {
   color: #022084;
   font-size: 1.5em; }
 
-/* line 84, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 85, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .first > * {
   background-color: beige; }
 
-/* line 89, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 90, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .second > .col-8 {
   background-color: #022084;
   display: flex;
   flex-direction: column;
   justify-content: space-around; }
-  /* line 95, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+  /* line 96, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
   .second > .col-8 * {
     color: #FFD3A5;
     background-color: #022084; }
 
-/* line 100, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 101, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .second > .col-4 {
   background-color: #FFD3A5;
   display: flex;
   justify-content: center;
   align-content: center; }
 
-/* line 108, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 109, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .main_left {
   justify-content: space-around;
   background-color: beige; }
 
-/* line 113, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 114, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .main_right {
   background-color: #FFD3A5; }
-  /* line 115, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+  /* line 116, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
   .main_right * {
     background-color: #FFD3A5;
     font-weight: bold; }
 
-/* line 121, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 122, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 #pl, #en {
   background-size: cover;
   background-position: center;
   cursor: pointer; }
 
-/* line 128, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 129, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 header .col-12 {
   display: flex;
   height: 50px;
   justify-content: flex-end; }
-  /* line 132, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+  /* line 133, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
   header .col-12 > * {
     margin: 0 20px;
     height: 30px;
     width: 60px;
     border: 1px solid black; }
 
-/* line 140, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 141, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 #pl {
   background-image: url(../images/pl.jpg); }
 
-/* line 144, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 145, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 #en {
   background-image: url(../images/en.png); }
 
-/* line 148, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 149, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 .photo {
   background-image: url(../images/DSC_0053p.JPG);
   height: 200px;
@@ -183,28 +184,27 @@ header .col-12 {
   border: 5px solid saddlebrown;
   border-radius: 10%; }
 
-/* line 157, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+/* line 158, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
 #clause {
   background-color: beige; }
 
 /* ---------------------------------------------- */
 @media only screen and (max-width: 550px) {
-  /* line 164, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+  /* line 165, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
   [class*='col-'] {
     float: none;
     width: 100%; }
-  /* line 168, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+  /* line 169, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
   .third {
     display: flex;
     flex-direction: column; }
-  /* line 172, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+  /* line 173, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
   .third > .main_left {
-    order: 2;
-    font-size: 0.75rem; }
-  /* line 176, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+    order: 2; }
+  /* line 177, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
   .third > .main_right {
     order: 1; }
-  /* line 179, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
+  /* line 180, /home/wiciu/git_github/Witold_Slawko_CV/scss/style.scss */
   header .col-1 {
     width: 20%; } }
 

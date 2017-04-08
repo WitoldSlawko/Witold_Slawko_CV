@@ -6,6 +6,7 @@ $main_color_3: #3A3335;
 
 html {
 	font-size: 20px;
+	background-color: beige;
 }
 
 * {
@@ -171,7 +172,7 @@ header .col-12 {
 	}
 	.third>.main_left {
 		order: 2;
-		font-size: 0.75rem;
+		//font-size: 0.75rem;
 	}
 	.third>.main_right {
 		order: 1;
